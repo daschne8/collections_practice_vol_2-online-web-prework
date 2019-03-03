@@ -84,7 +84,7 @@ def organize_schools(schools)
     if locations[location] == nil
       locations[location] = [school]
     else
-      locations[location] += school
+      locations[location] += [school]
     end
   end
   return locations
