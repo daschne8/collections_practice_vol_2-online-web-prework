@@ -58,8 +58,8 @@ def merge_data(keys,data)
   merged = {}
   for index in 0...(keys.length) do
     name = keys[index][:first_name]
-    merged = keys[index].merge(data[index][name])
-    merged_array << merged
+    #merged = keys[index].merge(data[index][name])
+    #merged_array << merged
   end
  return merged_array
 end
