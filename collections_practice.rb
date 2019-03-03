@@ -81,7 +81,7 @@ def organize_schools(schools)
   schools.each_pair do |key,value|
     location = value[:location]
     school = keys
-    locations[location] += [school]
+    locations[location] = locations[location] + [school]
   end
   return locations
 end
