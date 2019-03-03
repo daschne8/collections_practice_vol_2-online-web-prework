@@ -81,7 +81,11 @@ def organize_schools(schools)
   schools.each_pair do |key,value|
     location = value[:location]
     school = keys
-    locations[location] = locations[location].push(school)
+    if locations[location] == nil
+      locations[location] = [school]
+    else
+      locations[location] += school
+    end
   end
   return locations
 end
