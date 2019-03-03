@@ -80,7 +80,7 @@ def organize_schools(schools)
   locations = {}
   schools.each_pair do |key,value|
     location = value[:location]
-    school = keys
+    school = key
     if locations[location] == nil
       locations[location] = [school]
     else
