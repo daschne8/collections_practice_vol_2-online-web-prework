@@ -80,6 +80,5 @@ def organize_schools(schools)
   oraganized = {}
   locations = {}
   schools.each_value do |value|
-    
+
   end
-  
