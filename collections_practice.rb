@@ -77,7 +77,6 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
-  oraganized = {}
   locations = {}
   schools.each_pair do |key,value|
     location = value[:location]
