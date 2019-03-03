@@ -75,3 +75,11 @@ def find_cool(array)
   end
   return cool_hashes
 end
+
+def organize_schools(schools)
+  oraganized = {}
+  locations = {}
+  schools.each_value do |value|
+    
+  end
+  
