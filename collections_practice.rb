@@ -79,6 +79,11 @@ end
 def organize_schools(schools)
   oraganized = {}
   locations = {}
-  schools.each_value do |value|
-
+  schools.each_pair do |key,value|
+    location = value[:location]
+    school = keys
+    locations[location] += [school]
   end
+  return locations
+end
+
