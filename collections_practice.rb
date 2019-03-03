@@ -60,7 +60,7 @@ def merge_data(keys,data)
     name = keys[index][:first_name]
     hash1 = keys[index]
     hash2 = data[index][name]
-    merged = hash2 # hash1.merge(hash2)
+    merged = hash1.merge(hash2)
     merged_array << merged
   end
  return merged_array
