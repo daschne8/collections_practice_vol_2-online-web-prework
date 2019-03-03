@@ -56,7 +56,7 @@ end
 def merge_data(keys,data)
   merged_array = []
   merged = {}
-  for index in 0...(keys.length-1) do
+  for index in 0...(keys.length) do
     name = keys[index][:first_name]
     hash1 = keys[index]
     hash2 = data[index][name]
