@@ -52,7 +52,7 @@ def count_elements(array)
   end
   return answer
 end
-
+#wtf is index messing up the function?
 def merge_data(keys,data)
   merged_array = []
   merged = {}
